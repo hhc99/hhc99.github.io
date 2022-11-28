@@ -1194,7 +1194,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #8a9e2a;
+  background: #b463da;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2623,7 +2623,7 @@ ul.breadcrumb li + li:last-child {
   }
 }
 body {
-  background: url("/images/avatar.gif");
+  background: url("/images/pexels-photo-14197334.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
