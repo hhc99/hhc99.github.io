@@ -1194,7 +1194,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #53e0cd;
+  background: #fc5eff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1989,6 +1989,13 @@ pre .javascript .function {
 #qr p {
   text-align: center;
 }
+.post-copyright {
+  background: var(--card-bg-color);
+  border-left: 3px solid #ff2a2a;
+  list-style: none;
+  margin: 2em 0 0;
+  padding: 0.5em 1em;
+}
 .post-body p a {
   color: #0593d3;
   border-bottom: none;
@@ -2689,4 +2696,83 @@ body {
 #busuanzi_value_site_pv,
 #busuanzi_value_site_uv {
   color: #00bfff;
+}
+.post-toc.nav.nav-child {
+  display: block;
+}
+.nav-level-3.nav-child {
+  display: none !important;
+}
+.back-to-top:hover {
+  color: #88ff0d;
+  background-color: rgba(0,0,0,0.75);
+}
+.highlight figcaption {
+  margin: 0em;
+  padding: 0.5em;
+  background: #eee;
+  border-bottom: 1px solid #e9e9e9;
+}
+.highlight figcaption a {
+  color: #5073b8;
+}
+.highlight {
+  position: relative;
+}
+.btn-copy {
+  display: inline-block;
+  cursor: pointer;
+  background-color: #eee;
+  background-image: linear-gradient(#fcfcfc, #eee);
+  border: 1px solid #d5d5d5;
+  border-radius: 3px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-appearance: none;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #333;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+  padding: 2px 6px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  opacity: 0;
+}
+.btn-copy span {
+  margin-left: 5px;
+}
+.highlight:hover .btn-copy {
+  opacity: 1;
+}
+code {
+  color: #c7254e;
+  background: #f9f2f4;
+  border: 1px solid #d6d6d6;
+}
+.post-button .btn:hover {
+  color: #88ff0d;
+  background-color: rgba(0,0,0,0.75);
+}
+.pagination .page-number.current {
+  border-radius: 100%;
+  background-color: rgba(100,100,100,0.75);
+}
+.pagination .prev,
+.pagination .next,
+.pagination .page-number {
+  margin-bottom: 10px;
+  border: none;
+  color: #010101;
+}
+.page-number:hover,
+.page-number:active {
+  color: #88ff0d;
+  border-radius: 100%;
+  background-color: rgba(0,0,0,0.75);
 }
