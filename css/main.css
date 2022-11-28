@@ -1194,7 +1194,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #aab699;
+  background: #fa0bff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2786,10 +2786,10 @@ body {
   background: $black;
 }
 .brand {
-  color: #808080;
+  color: #e2e1d1;
 }
 .site-subtitle {
-  color: #808080;
+  color: #e2e1d1;
 }
 .post-block.page {
   margin-top: 40px;
