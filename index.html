@@ -340,7 +340,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2022-11-29 18:22:01 / 修改时间：20:43:46" itemprop="dateCreated datePublished" datetime="2022-11-29T18:22:01+08:00">2022-11-29</time>
+              <time title="创建时间：2022-11-29 18:22:01 / 修改时间：20:46:14" itemprop="dateCreated datePublished" datetime="2022-11-29T18:22:01+08:00">2022-11-29</time>
             </span>
 
           <br>
@@ -457,11 +457,11 @@ obj = 100; // 这是装箱
 <pre><code>dynamic d = 20;
 </code></pre>
 <p>动态类型与对象类型相似，但是对象类型变量的类型检查是在<strong>编译</strong>时发生的，而动态类型变量的类型检查是在<strong>运行</strong>时发生的。（相当于静态多态和动态多态，静态多态是在编译期间完成的多态，编译器根据函数实参的类型（可能会进行隐式类型转换），可以推断出要调用那个函数，如果有对应的函数就调用该函数，否则出现编译错误，静态多态的实现方式主要有函数重载，包括普通函数的重载和成员函数的重载以及函数模板的使用；动态多态即动态绑定是运行时的多态，在程序执行期间（非编译期）判断所引用对象的实际类型，根据其实际类型调用相应的方法）——顺便复习一下C++。</p>
-<p>####字符串（String）类型<br>字符串（String）类型 允许您给变量分配任何字符串值。字符串（String）类型是 System.String 类的别名。它是从对象（Object）类型派生的。字符串（String）类型的值可以通过两种形式进行分配：引号和 @引号。</p>
+<h4 id="字符串（String）类型"><a href="#字符串（String）类型" class="headerlink" title="字符串（String）类型"></a>字符串（String）类型</h4><p>字符串（String）类型 允许您给变量分配任何字符串值。字符串（String）类型是 System.String 类的别名。它是从对象（Object）类型派生的。字符串（String）类型的值可以通过两种形式进行分配：引号和 @引号。</p>
 <p>例如：<br>    String str &#x3D; “runoob.com”;<br>一个 @引号字符串：</p>
 <pre><code>@&quot;runoob.com&quot;;
 </code></pre>
-<p>C# string 字符串的前面可以加 @（称作”逐字字符串”）将转义字符（\）当作普通字符对待，比如：</p>
+<p>C#string 字符串的前面可以加 @（称作”逐字字符串”）将转义字符（\）当作普通字符对待，比如：</p>
 <pre><code>string str = @&quot;C:\Windows&quot;;
 </code></pre>
 <p>等价于：</p>
@@ -474,7 +474,7 @@ obj = 100; // 这是装箱
 &lt;/script&gt;&quot;;
 </code></pre>
 <p>用户自定义引用类型有：class、interface 或 delegate。</p>
-<p>####指针类型（Pointer types）<br>指针类型变量存储另一种类型的内存地址。C# 中的指针与 C 或 C++ 中的指针有相同的功能。</p>
+<h4 id="指针类型（Pointer-types）"><a href="#指针类型（Pointer-types）" class="headerlink" title="指针类型（Pointer types）"></a>指针类型（Pointer types）</h4><p>指针类型变量存储另一种类型的内存地址。C# 中的指针与 C 或 C++ 中的指针有相同的功能。</p>
 <p>声明指针类型的语法：</p>
 <pre><code>type* identifier;
 </code></pre>
@@ -482,7 +482,7 @@ obj = 100; // 这是装箱
 <pre><code>char* cptr;
 int* iptr;
 </code></pre>
-<p>###C#类型转换<br>类型转换从根本上说是类型铸造，或者说是把数据从一种类型转换为另一种类型。在 C# 中，类型铸造有两种形式：</p>
+<h3 id="C-类型转换"><a href="#C-类型转换" class="headerlink" title="C#类型转换"></a>C#类型转换</h3><p>类型转换从根本上说是类型铸造，或者说是把数据从一种类型转换为另一种类型。在 C# 中，类型铸造有两种形式：</p>
 <ul>
 <li>隐式类型转换——这些转换是 C# 默认的以安全方式进行的转换, 不会导致数据丢失。例如，从小的整数类型转换为大的整数类型，从派生类转换为基类。</li>
 <li>显式类型转换——显式类型转换，即强制类型转换。显式转换需要强制转换运算符，而且强制转换会造成数据丢失。</li>
