@@ -1193,7 +1193,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #1dedff;
+  background: #1606b1;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2767,7 +2767,7 @@ mjx-container + br {
   }
 }
 body {
-  background: url("/images/VCG211226929902.webp");
+  background: url("/images/girl1.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
