@@ -9,7 +9,7 @@
     <atom:link href="http://hhc99.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Stay hungry, stay foolish</description>
-    <pubDate>Fri, 02 Dec 2022 03:11:14 GMT</pubDate>
+    <pubDate>Fri, 02 Dec 2022 03:12:39 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -22,7 +22,7 @@
       
       
       
-      <content:encoded><![CDATA[<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>该示例是为了显示如何使用混合现实或这OpenXR运行是及那个内容流是传输到Microsoft Hololens2或运行Windows 混合现实的PC的示例。在我的课题中，主要是为了实现电脑的Unity画面实时显示在Hololens2设备之中。<br> <span id="more"></span></p><h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><blockquote><ol><li>微软官方教程 <a href="https://github.com/microsoft/MixedReality-HolographicRemoting-Samples">https://github.com/microsoft/MixedReality-HolographicRemoting-Samples</a></li></ol></blockquote>]]></content:encoded>
+      <content:encoded><![CDATA[<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>该示例是为了显示如何使用混合现实或这OpenXR运行是及那个内容流是传输到Microsoft Hololens2或运行Windows 混合现实的PC的示例。在我的课题中，主要是为了实现电脑的Unity画面实时显示在Hololens2设备之中。<br> <span id="more"></span></p><h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><blockquote><p>1.微软官方教程 <a href="https://github.com/microsoft/MixedReality-HolographicRemoting-Samples">https://github.com/microsoft/MixedReality-HolographicRemoting-Samples</a></p></blockquote>]]></content:encoded>
       
       
       
