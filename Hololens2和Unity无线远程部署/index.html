@@ -30,22 +30,19 @@
 <meta property="og:site_name" content="Dreamside Maroon">
 <meta property="og:description" content="陆陆续续摸索了好多天，一直游走与CSDN和Github之间查找解决方案，主要参考的是微软官方的解决文档和开源项目，接下来主要就是记录一些在过程中随机遇到的问题和最终采取的解决方法的一些流水帐，也是方便日后自己做一些回顾和提前的整理。">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://imgse.com/i/zDilDg">
-<meta property="og:image" content="d:\Blog\source_posts\Hololens2%E7%B3%BB%E5%88%97\%E5%9B%BE1.png">
-<meta property="og:image" content="http://hhc99.github.io/_posts%5CHololens2%E5%92%8CUnity%E6%97%A0%E7%BA%BF%E8%BF%9C%E7%A8%8B%E9%83%A8%E7%BD%B2%5C%E5%9B%BE1.png">
 <meta property="og:image" content="http://hhc99.github.io/Hololens2%E5%92%8CUnity%E6%97%A0%E7%BA%BF%E8%BF%9C%E7%A8%8B%E9%83%A8%E7%BD%B2/%E5%9B%BE1.png">
-<meta property="og:image" content="https://imgse.com/i/zDFry8">
-<meta property="og:image" content="https://imgse.com/i/zDk9mD">
-<meta property="og:image" content="https://imgse.com/i/zDkYcV">
-<meta property="og:image" content="https://imgse.com/i/zDVy3n">
-<meta property="og:image" content="https://imgse.com/i/zDV2uV">
-<meta property="og:image" content="https://imgse.com/i/zDVRBT">
+<meta property="og:image" content="http://hhc99.github.io/Hololens2%E5%92%8CUnity%E6%97%A0%E7%BA%BF%E8%BF%9C%E7%A8%8B%E9%83%A8%E7%BD%B2/%E5%9B%BE2.png">
+<meta property="og:image" content="http://hhc99.github.io/Hololens2%E5%92%8CUnity%E6%97%A0%E7%BA%BF%E8%BF%9C%E7%A8%8B%E9%83%A8%E7%BD%B2/%E5%9B%BE3.png">
+<meta property="og:image" content="http://hhc99.github.io/Hololens2%E5%92%8CUnity%E6%97%A0%E7%BA%BF%E8%BF%9C%E7%A8%8B%E9%83%A8%E7%BD%B2/%E5%9B%BE4.png">
+<meta property="og:image" content="http://hhc99.github.io/Hololens2%E5%92%8CUnity%E6%97%A0%E7%BA%BF%E8%BF%9C%E7%A8%8B%E9%83%A8%E7%BD%B2/%E5%9B%BE5.png">
+<meta property="og:image" content="http://hhc99.github.io/Hololens2%E5%92%8CUnity%E6%97%A0%E7%BA%BF%E8%BF%9C%E7%A8%8B%E9%83%A8%E7%BD%B2/%E5%9B%BE6.png">
+<meta property="og:image" content="http://hhc99.github.io/Hololens2%E5%92%8CUnity%E6%97%A0%E7%BA%BF%E8%BF%9C%E7%A8%8B%E9%83%A8%E7%BD%B2/%E5%9B%BE7.png">
 <meta property="article:published_time" content="2022-12-03T05:03:23.836Z">
-<meta property="article:modified_time" content="2022-12-03T05:27:26.539Z">
+<meta property="article:modified_time" content="2022-12-03T05:33:18.004Z">
 <meta property="article:author" content="王卡">
 <meta property="article:tag" content="Hololens">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://imgse.com/i/zDilDg">
+<meta name="twitter:image" content="http://hhc99.github.io/Hololens2%E5%92%8CUnity%E6%97%A0%E7%BA%BF%E8%BF%9C%E7%A8%8B%E9%83%A8%E7%BD%B2/%E5%9B%BE1.png">
 
 <link rel="canonical" href="http://hhc99.github.io/Hololens2%E5%92%8CUnity%E6%97%A0%E7%BA%BF%E8%BF%9C%E7%A8%8B%E9%83%A8%E7%BD%B2/">
 
@@ -262,7 +259,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2022-12-03 13:03:23 / 修改时间：13:27:26" itemprop="dateCreated datePublished" datetime="2022-12-03T13:03:23+08:00">2022-12-03</time>
+              <time title="创建时间：2022-12-03 13:03:23 / 修改时间：13:33:18" itemprop="dateCreated datePublished" datetime="2022-12-03T13:03:23+08:00">2022-12-03</time>
             </span>
 
           
@@ -346,22 +343,25 @@
 </tr>
 </tbody></table>
 <p>切入正题，直接点击<strong>Sample-&gt;Assets-&gt;QRCodesSample.unity</strong>，这就是一般的打开Unity场景的方法,这里我是用Unity Hub来管理Unity的，我觉得比较方便，但是上文已经说到，这个项目其实是导入的Unity2020版本的生成文档，因此必然会和我的有冲突，接下来，用图来辅助描述：</p>
-<p><img data-src="https://imgse.com/i/zDilDg" alt="图1"><br><img data-src="D:\Blog\source_posts\Hololens2系列\图1.png" alt="图1"></p>
-<p><img data-src="/_posts%5CHololens2%E5%92%8CUnity%E6%97%A0%E7%BA%BF%E8%BF%9C%E7%A8%8B%E9%83%A8%E7%BD%B2%5C%E5%9B%BE1.png" alt="图1"></p>
-<img data-src="/Hololens2%E5%92%8CUnity%E6%97%A0%E7%BA%BF%E8%BF%9C%E7%A8%8B%E9%83%A8%E7%BD%B2/%E5%9B%BE1.png" class title="这是一张图片">
-
+<img data-src="/Hololens2%E5%92%8CUnity%E6%97%A0%E7%BA%BF%E8%BF%9C%E7%A8%8B%E9%83%A8%E7%BD%B2/%E5%9B%BE1.png" class title="图1">
 
 
 <p>如图所示，就出现已保存的项目（2020.3.38f1）的版本与当前运行的编辑器（2021.3.13f1c1）不符的问题，我们选择继续。</p>
-<p><img data-src="https://imgse.com/i/zDFry8" alt="图2"></p>
+<img data-src="/Hololens2%E5%92%8CUnity%E6%97%A0%E7%BA%BF%E8%BF%9C%E7%A8%8B%E9%83%A8%E7%BD%B2/%E5%9B%BE2.png" class title="图2">
+
 <p>我们选择Enter Safe Mode。</p>
-<p><img data-src="https://imgse.com/i/zDk9mD" alt="图3"></p>
+<img data-src="/Hololens2%E5%92%8CUnity%E6%97%A0%E7%BA%BF%E8%BF%9C%E7%A8%8B%E9%83%A8%E7%BD%B2/%E5%9B%BE3.png" class title="图3">
 <p>结果显示出现了bug,我们仔细看看，其实是关于一些命名空间的问题，我查来查去，发现是构想项目的过程中缺少包的问题，这里我们还是用VS2019打开查看一下。</p>
-<p><img data-src="https://imgse.com/i/zDkYcV" alt="图4"></p>
+<img data-src="/Hololens2%E5%92%8CUnity%E6%97%A0%E7%BA%BF%E8%BF%9C%E7%A8%8B%E9%83%A8%E7%BD%B2/%E5%9B%BE4.png" class title="图4">
+
 <p>最后其实我的解决方案是安装了最新的.Nupkg包，当时我第一次接触到这个类型的包，也不知道是啥，也是搜了一段时间，我的理解就是一种特殊的压缩包，有专门的管理包库NuGet，其实这种包有一种很简单查看内容的方法，就是把后缀名改成.rar文件，然后对整个文件进行解压缩，就可以对这个文件中的内容进行查看。这里我们仔细看一下上图中的Microsoft.MixedReality.QR的版本是0.5.3019，但我觉得就是这里出了问题，因此去NuGet库中下载了最新的包，下载地址为<a target="_blank" rel="noopener" href="https://www.nuget.org/packages/Microsoft.MixedReality.QR#readme-body-tab">https://www.nuget.org/packages/Microsoft.MixedReality.QR#readme-body-tab</a></p>
-<p><img data-src="https://imgse.com/i/zDVy3n" alt="图5"></p>
+<img data-src="/Hololens2%E5%92%8CUnity%E6%97%A0%E7%BA%BF%E8%BF%9C%E7%A8%8B%E9%83%A8%E7%BD%B2/%E5%9B%BE5.png" class title="图5">
+
 <p>我们下载文件到项目所在的路径，在Unity中导入资源包。（如果你的Unity中配置了NuGet管理的话，我们可以采取方法二，可以直接在Unity中点击NuGet-&gt;Management NuGet Package-&gt;online search Microsoft.MixedReality.QR进行搜索，点击安装即可）如图，我们安装了0.5.3037的包，这个时候我们再看一下Unity界面。发现已经不报错误了，而且Assets-&gt;Packages中也多了Microsoft.MixedReality.QR.0.5.3037，说明我们已经成功地解决了bug。(注意：这里特别注意，因为每个人的Unity在安装的时候选择的组件都不一样，所以建议大家仔细看看安装时的一些选项，针对Unity,其Unity Hub我觉得挺好用的，相当于是一个很好的前端交互界面，可以比较好地管理版本和创建项目，但是不要乱安装一些版本，因为其实Unity的每一个版本都挺大的，慎重，所以我当时在刚遇到这种错误的时候也尝试了安装与项目的构建时相同版本2020.3.38f1，但是当时这个版本下载不成功，可能也是就现在而言2020.3.38f1版本不稳定了，因此也就直接用目前的2021版本来进行项目构建)</p>
-<p><img data-src="https://imgse.com/i/zDV2uV" alt="图6"><br><img data-src="https://imgse.com/i/zDVRBT" alt="图7"></p>
+<img data-src="/Hololens2%E5%92%8CUnity%E6%97%A0%E7%BA%BF%E8%BF%9C%E7%A8%8B%E9%83%A8%E7%BD%B2/%E5%9B%BE6.png" class title="图6">
+
+<img data-src="/Hololens2%E5%92%8CUnity%E6%97%A0%E7%BA%BF%E8%BF%9C%E7%A8%8B%E9%83%A8%E7%BD%B2/%E5%9B%BE7.png" class title="图7">
+
 <p>打开这个场景，Play一下，不知道在干啥？？？因此,先写到这里吧。</p>
 <h1 id="第二站"><a href="#第二站" class="headerlink" title="第二站"></a>第二站</h1><h1 id="参考文档"><a href="#参考文档" class="headerlink" title="参考文档"></a>参考文档</h1><p>1、微软官方的QR码追踪项目<a target="_blank" rel="noopener" href="https://github.com/microsoft/MixedReality-QRCode-Sample">https://github.com/microsoft/MixedReality-QRCode-Sample</a></p>
 
